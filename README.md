@@ -46,7 +46,7 @@ THEN I am able to successfully create and delete reactions to thoughts and add a
 ![Preview GIF](./assets/insomnia_preview.gif)
 
 ## Link To Walkthru Video
-**Walkthrough Video:** [Link To Walkthru Video](Youtube link here) 
+**Walkthrough Video:** [Link To Walkthru Video](https://youtu.be/Md4br3oE1xs) 
 
 
 ## Installation and Usage
