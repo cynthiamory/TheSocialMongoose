@@ -15,7 +15,7 @@ An API for a social network web application where users can share their thoughts
 - [Credits](#credits)
 - [License](#license)
 
-## Descriptiom
+## Description
 
 This application serves as the foundation for a full-stack social network application. It utilizes a MongoDB database, Express.js routing, and the Mongoose ODM. The primary purpose is to establish the initial CRUD API routes for the application, enabling users to perform operations such as creation, searching, updating, and deletion. Additionally, users can engage in various activities, including sharing their thoughts, reacting to friends' thoughts, creating friend lists, and managing their own content. While the application is still in its early stages, the integration of MongoDB database and API middleware routing represents a crucial initial step in exploring the potential of MongoDB and the Mongoose ODM.
 
@@ -55,15 +55,24 @@ THEN I am able to successfully create and delete reactions to thoughts and add a
 ```bash
 npm init
 ```
-- Install Dependencies
+#### Install Dependencies
 ```bash
 npm install
 ```
-- Run the application to initiate the server using Command: 
+- You can also install dependcies indivually by running the following commands:
+
+   - Express will be npm i express@4.18.2
+   - Dotenv will be npm i dotenv
+   - Mongoose will be npm i mongoose
+   - Modemon will be npm i nodemon
+   - Jest will be npm i jest
+
+
+#### Run the application to initiate the server using Command: 
 ```bash
 npm run start
 ```
-- Now you can leverage Insomnia to test the application's local server: http://localhost:3001. It provides a set of API routes, including GET, POST, PUT, and DELETE, for users, thoughts, and reactions. These routes are designed to facilitate seamless operations such as creating, updating, and deleting data in the database.
+#### Now you can leverage Insomnia to test the application's local server: http://localhost:3001. It provides a set of API routes, including GET, POST, PUT, and DELETE, for users, thoughts, and reactions. These routes are designed to facilitate seamless operations such as creating, updating, and deleting data in the database.
 
 ## Available Endpoints
 ```md
